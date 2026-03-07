@@ -1,50 +1,96 @@
-# Welcome to your Expo app 👋
+AI Vibe Coding Todo App
+🇹🇷 Türkçe
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, AI destekli vibe coding yaklaşımı kullanılarak geliştirilmiş bir To-Do uygulamasıdır.
+Uygulama React Native ve Expo kullanılarak geliştirilmiştir ve kullanıcıların görevlerini günlük, aylık ve yıllık olarak planlamasına yardımcı olur.
 
-## Get started
+Projenin amacı, yapay zeka ile hızlı prototipleme ve mobil uygulama geliştirme sürecini denemektir.
 
-1. Install dependencies
+Özellikler
 
-   ```bash
-   npm install
-   ```
+Günlük görev listesi
 
-2. Start the app
+Aylık görev planlama
 
-   ```bash
-   npx expo start
-   ```
+Yıllık hedef listesi
 
-In the output, you'll find options to open the app in a
+Basit ve mobil odaklı arayüz
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+React Native + Expo altyapısı
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Gereksinimler
 
-## Get a fresh project
+Projeyi çalıştırmak için:
 
-When you're ready, run:
+Node.js
 
-```bash
-npm run reset-project
-```
+npm veya yarn
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Expo
 
-## Learn more
+Expo Go mobil uygulaması
 
-To learn more about developing your project with Expo, look at the following resources:
+Kurulum
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Repoyu klonlayın:
 
-## Join the community
+git clone https://github.com/kullaniciadi/repo-adi.git
+cd repo-adi
 
-Join our community of developers creating universal apps.
+Bağımlılıkları yükleyin:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+
+Projeyi başlatın:
+
+npx expo start
+
+Terminalde çıkan QR kodu, telefonunuzdaki Expo Go uygulaması ile taranarak proje çalıştırılabilir.
+
+🇬🇧 English
+
+This project is a To-Do application developed using an AI-assisted vibe coding approach.
+The app is built with React Native and Expo and allows users to organize tasks daily, monthly, and yearly.
+
+The goal of this project is to experiment with rapid prototyping and mobile development using AI tools.
+
+Features
+
+Daily task list
+
+Monthly task planning
+
+Yearly goal tracking
+
+Simple mobile-first UI
+
+Built with React Native + Expo
+
+Requirements
+
+To run the project you need:
+
+Node.js
+
+npm or yarn
+
+Expo
+
+Expo Go mobile app
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/repository-name.git
+cd repository-name
+
+Install dependencies:
+
+npm install
+
+Start the project:
+
+npx expo start
+
+Scan the QR code with the Expo Go app on your mobile device to run the application.
