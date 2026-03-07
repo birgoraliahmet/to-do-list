@@ -5,25 +5,33 @@
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const tintColorLight = '#6366f1'; // Indigo 500
+const tintColorDark = '#818cf8'; // Indigo 400
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
+    text: '#1e293b', // Slate 800
+    background: '#f8fafc', // Slate 50
+    card: '#ffffff',
     tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
+    icon: '#64748b', // Slate 500
+    tabIconDefault: '#94a3b8', // Slate 400
     tabIconSelected: tintColorLight,
+    border: '#e2e8f0', // Slate 200
+    success: '#10b981', // Emerald 500
+    danger: '#ef4444', // Red 500
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
+    text: '#f1f5f9', // Slate 100
+    background: '#0f172a', // Slate 900
+    card: '#1e293b', // Slate 800
     tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
+    icon: '#94a3b8', // Slate 400
+    tabIconDefault: '#64748b', // Slate 500
     tabIconSelected: tintColorDark,
+    border: '#334155', // Slate 700
+    success: '#34d399', // Emerald 400
+    danger: '#f87171', // Red 400
   },
 };
 
