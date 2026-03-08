@@ -1,50 +1,93 @@
-# Welcome to your Expo app 👋
+# To-Do List App / Yapılacaklar Listesi Uygulaması
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[English](#english) | [Türkçe](#türkce)
 
-## Get started
+---
 
-1. Install dependencies
+<a name="english"></a>
+## 📝 To-Do List App (React Native)
 
+A comprehensive and easy-to-use To-Do List mobile application built with **React Native** and **Expo**. This app allows users to create, manage, and track daily, monthly, and yearly plans and tasks.
+
+### ✨ Features
+- **Categorized Tasks:** Manage your plans easily with Daily, Monthly, and Yearly tabs.
+- **Task Creation:** Add new tasks with specific date selection.
+- **Progress Tracking:** Track the completion status of your tasks easily.
+- **Data Persistence:** All your tasks are securely saved locally on your device using `AsyncStorage`.
+- **Modern Navigation:** Built with Expo Router for seamless, file-based routing and a great user experience.
+
+### 🛠️ Technologies Used
+- **Framework:** [React Native](https://reactnative.dev/)
+- **Toolset:** [Expo](https://expo.dev/)
+- **Navigation:** [Expo Router](https://docs.expo.dev/router/introduction/)
+- **Storage:** [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/)
+
+### 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/birgoraliahmet/to-do-list.git
+   cd to-do-list
+   ```
+
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Start the app:**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run on your device:**
+   - Scan the QR code with the **Expo Go** app on your Android or iOS device.
+   - Alternatively, press `a` for Android emulator or `i` for iOS simulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🤝 Contributing
+Contributions, issues, and feature requests are welcome! 
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+<a name="türkce"></a>
+## 📝 Yapılacaklar Listesi Uygulaması (React Native)
 
-When you're ready, run:
+**React Native** ve **Expo** kullanılarak geliştirilmiş, kapsamlı ve kullanımı kolay bir mobil Yapılacaklar Listesi (To-Do List) uygulaması. Bu uygulama kullanıcıların günlük, aylık ve yıllık planlarını oluşturmasına, yönetmesine ve takip etmesine olanak tanır.
 
-```bash
-npm run reset-project
-```
+### ✨ Özellikler
+- **Kategorize Edilmiş Görevler:** Günlük, Aylık ve Yıllık sekmeler ile planlarınızı kolayca yönetin.
+- **Görev Oluşturma:** Belirli tarih seçimleriyle detaylı yeni görevler ekleyin.
+- **İlerleme Takibi:** Görevlerinizin tamamlanma durumunu tek dokunuşla işaretleyin ve takip edin.
+- **Veri Kalıcılığı:** `AsyncStorage` kullanılarak tüm görevleriniz çevrimdışı olarak cihazınıza güvenle kaydedilir.
+- **Modern Arayüz:** Expo Router ile akıcı, dosya tabanlı ve kesintisiz sayfa geçişleri.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🛠️ Kullanılan Teknolojiler
+- **Framework:** [React Native](https://reactnative.dev/)
+- **Araç Seti:** [Expo](https://expo.dev/)
+- **Yönlendirme (Navigation):** [Expo Router](https://docs.expo.dev/router/introduction/)
+- **Veri Depolama:** [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/)
 
-## Learn more
+### 🚀 Başlangıç
 
-To learn more about developing your project with Expo, look at the following resources:
+1. **Projeyi klonlayın:**
+   ```bash
+   git clone https://github.com/birgoraliahmet/to-do-list.git
+   cd to-do-list
+   ```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. **Bağımlılıkları yükleyin:**
+   ```bash
+   npm install
+   ```
 
-## Join the community
+3. **Uygulamayı başlatın:**
+   ```bash
+   npx expo start
+   ```
 
-Join our community of developers creating universal apps.
+4. **Cihazınızda çalıştırın:**
+   - Terminalde çıkan QR kodu Android veya iOS cihazınızdaki **Expo Go** uygulaması ile okutun.
+   - Veya klavyede `a` tuşuna basarak Android emülatöründe, `i` tuşuna basarak iOS simülatöründe çalıştırın.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 🤝 Katkıda Bulunma
+Katkılarınız, geri bildirimleriniz ve özellik talepleriniz bizim için değerlidir! 
